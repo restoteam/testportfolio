@@ -1,0 +1,353 @@
+.navigation {
+  background-color: #16181C;
+  height: 75px;
+}
+
+.navigation span {
+  margin-top: 2.5%;
+  margin-left: 5%;
+  color: #F16522;
+  font-size: 18px;
+}
+
+.navigation ul {
+  margin-top: 2.5%;
+  margin-right: 5%;
+}
+
+.navigation ul li {
+  display: inline;
+  margin-left: 15px;
+}
+
+.navigation ul li a {
+  color: #fff;
+  font-size: 18px;
+}
+
+.navigation ul li a:hover {
+  color: #F16522;
+}
+
+.avatar {
+  background-image: url("../icons/avatar/1.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-top: 13%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.title {
+  position: absolute;
+  margin-top: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #fff;
+  line-height: 0;
+}
+
+.title .main-title {
+  font-size: 39px;
+}
+
+.title .sub-title {
+  font-size: 20px;
+}
+
+header {
+  width: 100%;
+  height: 100%;
+  background-color: #15171B;
+}
+
+.about {
+  height: 100%;
+}
+
+
+.about .about-title {
+  text-align: center;
+  font-size: 39px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.about .about-description {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 43px;
+  float:none;
+  margin:0 auto;
+  text-align: center;
+}
+.about .skills{
+	float:none;
+	margin:20px auto;
+	padding-left: 10%;
+}
+
+.portfolio {
+  background-color: #F2F2F2;
+  height: 110%;
+}
+
+.portfolio .portfolio-title {
+  text-align: center;
+  font-size: 39px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.portfolio .projects {
+  height: 200px;
+  margin-bottom: 10px;
+  float: none;
+  margin:20px auto;
+  padding-left: 5%;
+}
+
+.portfolio .projects .project {
+  height: inherit;
+}
+
+.portfolio .projects .project .project-img {
+  width: 100%;
+  height: inherit;
+}
+
+footer {
+  height: 100%;
+  background-color: #16181C;
+}
+
+footer .cv p {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 22px;
+  color: #fff;
+}
+
+footer .cv .download-icon {
+  width: 40px;
+  height: 25px;
+  margin: 0 auto;
+}
+
+footer .contacts {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 17px;
+}
+
+footer .social {
+  color: #fff;
+}
+
+footer .social p {
+  text-align: center;
+  margin-top: 10%;
+  font-size: 25px;
+}
+
+footer .social ul {
+	float: none;
+  margin: 4% auto;
+  width:30%;
+}
+
+footer .social ul li {
+  padding: 8%;
+  display: inline;
+}
+
+footer .social ul li .fa {
+  color: #F16522;
+}
+
+footer .social .github-icon {
+  text-align: center;
+  margin-top: 0px;
+}
+
+/*
+@media screen and (max-width: 480px){
+	.avatar{
+		width: 250px;
+		height:250px;
+		display: none;
+	}
+}*/
+
+@media only screen and (max-device-width: 335px) {
+	.avatar{
+		width: 270px;
+		height:270px;
+		margin-top: 35%;
+	}
+	.title{
+		margin-top: 73%;
+	}
+	.title .main-title {
+	    font-size: 75px;
+	}
+	.title .sub-title {
+	    font-size: 45px;
+	}
+	.navigation span {
+	    font-size: 39px;
+	}
+	.navigation ul li a {
+		font-size: 45px;
+	}
+	.about{
+		height:90%;
+	}
+	.about .about-title {
+		font-size: 60px;
+		margin-top: 10%;
+	}
+	.about .about-description {
+		width:90%;
+		font-size: 50px;
+	}
+	.about .skills {
+		margin-top: 21%;
+	}
+	
+	.portfolio{
+		height:120%;
+	}
+
+	.portfolio .portfolio-title{
+		font-size: 55px;
+		padding-top: 8%;
+	}
+
+	.portfolio .projects{
+		height:250px;
+	}
+
+	.portfolio .projects .project {
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	.portfolio .portfolio-title {
+		margin-top: 8%;
+	}
+	footer .cv p {
+		margin-top: 0;
+		font-size: 50px;
+	}
+	.download-icon a i .fa-3x {
+	    font-size: 9em;
+	}
+
+	footer .social p {
+	    font-size: 50px;
+	    padding-top: 10%;
+	}
+	i.fa {
+	    font-size: 8em;
+	}
+	footer .social ul {
+		width:65%;
+	}
+	footer .cv p {
+		padding-top: 10%;
+	}
+}
+@media only screen and (max-device-width: 425px) {
+	.avatar{
+		width: 270px;
+		height:270px;
+		margin-top: 35%;
+	}
+	.title{
+		margin-top: 73%;
+	}
+	.title .main-title {
+	    font-size: 75px;
+	}
+	.title .sub-title {
+	    font-size: 45px;
+	}
+	.navigation span {
+	    font-size: 39px;
+	}
+	.navigation ul li a {
+		font-size: 45px;
+	}
+	.about {
+	    height: 115%;
+	}
+	.about .about-title {
+		font-size: 60px;
+		margin-top: 10%;
+	}
+	.about .about-description {
+		width:90%;
+		font-size: 50px;
+	}
+	.about .skills {
+		margin-top: 21%;
+	}
+	
+	.portfolio {
+	    height: 155%;
+	}
+
+	.portfolio .portfolio-title{
+		font-size: 55px;
+		padding-top: 8%;
+	}
+
+	.portfolio .projects{
+		height:250px;
+	}
+
+	.portfolio .projects .project {
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	.portfolio .portfolio-title {
+		margin-top: 8%;
+	}
+	footer{
+		height: 135%;
+	}
+	footer .cv p {
+		margin-top: 0;
+		font-size: 50px;
+	}
+	.download-icon a i .fa-3x {
+	    font-size: 9em;
+	}
+
+	footer .social p {
+	    font-size: 50px;
+	    padding-top: 10%;
+	}
+	i.fa {
+	    font-size: 8em;
+	}
+	footer .social ul {
+		width:65%;
+	}
+	footer .cv p {
+		padding-top: 10%;
+	}
+}
